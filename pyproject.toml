@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "expiscor"
+version = "0.1.0"
+licence = "LGPL-3.0-or-later"
+description = "Python package to help individual investors to create long-term investment strategy. Currently calculates Efficient Frontier of an investment portfolio."
+authors = ["Ian Yu <ian.yu@arc.com.co>"]
+readme = README.md
+keywords = ["invest","modern portfolio theory","finance","efficient frontier"]
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)",
+    "Programming Language :: Python :: 3.9"
+    "Topic :: Office/Business :: Financial :: Investment",
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
