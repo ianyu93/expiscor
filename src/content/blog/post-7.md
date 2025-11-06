@@ -8,11 +8,11 @@ tags:
   - Web development
 seo:
   image:
-    src: '/post-7.jpg'
+    src: '/expiscor/post-7.jpg'
     alt: Bright lines on a dark background
 ---
 
-![Bright lines on a dark background](/post-7.jpg)
+![Bright lines on a dark background](/expiscor/post-7.jpg)
 
 **Note:** This post was created using Chat GPT to demonstrate the features of the _[Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/)_.
 

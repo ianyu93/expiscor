@@ -55,7 +55,7 @@ const { Content } = await render(post);
                 tags.length > 0 && (
                     <div class="flex flex-wrap gap-x-5 gap-y-1 text-sm">
                         {tags.map((tag) => (
-                            <a class="text-main hover:underline" href={`/tags/${slugify(tag)}`}>
+                            <a class="text-main hover:underline" href={`${import.meta.env.BASE_URL}/tags/${slugify(tag)}`}>
                                 #{tag}
                             </a>
                         ))}

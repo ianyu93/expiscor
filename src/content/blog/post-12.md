@@ -8,11 +8,11 @@ tags:
   - CSS
 seo:
   image:
-    src: '/post-12.jpg'
+    src: '/expiscor/post-12.jpg'
     alt: Wind turbine
 ---
 
-![Wind turbine](/post-12.jpg)
+![Wind turbine](/expiscor/post-12.jpg)
 
 **Note:** This post was created using Chat GPT to demonstrate the features of the _[Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/)_.
 

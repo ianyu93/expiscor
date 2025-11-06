@@ -23,7 +23,7 @@ const tags = getAllTags(posts).sort((tagA, tagB) => {
         tags.map((tag) => {
             const postCount = getPostsByTag(posts, tag.id).length;
             return (
-                <a class="mb-10 flex justify-between items-start gap-8 group sm:mb-12" href={`/tags/${tag.id}`}>
+                <a class="mb-10 flex justify-between items-start gap-8 group sm:mb-12" href={`${import.meta.env.BASE_URL}/tags/${tag.id}`}>
                     <div class="grow">
                         <h2 class="text-xl leading-tight font-serif font-medium group-hover:underline group-hover:decoration-dashed group-hover:underline-offset-4 group-hover:decoration-1 sm:text-2xl">
                             {tag.name}
