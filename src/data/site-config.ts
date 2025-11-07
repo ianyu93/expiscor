@@ -40,12 +40,12 @@ export type SiteConfig = {
 
 const siteConfig: SiteConfig = {
     website: 'https://ianyu93.github.io/expiscor',
-    title: 'Dante',
-    subtitle: 'Minimal Astro.js theme',
-    description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
+    title: 'Expiscor',
+    subtitle: 'Curiosity for Life',
+    description: "Ian Yu's Personal Blog",
     image: {
-        src: '/dante-preview.jpg',
-        alt: 'Dante - Astro.js and Tailwind CSS theme'
+        src: '',
+        alt: ''
     },
     headerNavLinks: [
         {
@@ -85,25 +85,34 @@ const siteConfig: SiteConfig = {
     ],
     socialLinks: [
         {
-            text: 'Dribbble',
-            href: 'https://dribbble.com/'
+            text: 'X/Twitter',
+            href: 'https://x.com/ianyu93'
+        },
+        {
+            text: 'LinkedIn',
+            href: 'https://www.linkedin.com/in/ian-yu1/'
         },
         {
             text: 'Instagram',
-            href: 'https://instagram.com/'
-        },
-        {
-            text: 'X/Twitter',
-            href: 'https://twitter.com/'
+            href: 'https://www.instagram.com/ianyu.arc/'
         }
     ],
     hero: {
-        title: 'Hi There & Welcome to My Corner of the Web!',
-        text: "I'm **Ethan Donovan**, a web developer at Amazing Studio, dedicated to the realms of collaboration and artificial intelligence. My approach involves embracing intuition, conducting just enough research, and leveraging aesthetics as a catalyst for exceptional products. I have a profound appreciation for top-notch software, visual design, and the principles of product-led growth. Feel free to explore some of my coding endeavors on <a href='https://github.com/JustGoodUI/dante-astro-theme'>GitHub</a> or follow me on <a href='https://twitter.com/justgoodui'>Twitter/X</a>.",
-        image: {
-            src: '/hero.jpeg',
-            alt: 'A person sitting at a desk in front of a computer'
-        },
+        title: 'Yup! This is Where I Dump My Ideas and Stuff!',
+        text: `Someone once said that writing is the only way to preserve ourselves in this age of AI. 
+
+I'm starting this blog because I want to write about my specific experience with AI Engineering. Throughout my multiple implementations with different teams, and coming from an ML Engineer background rather than Web Development background, I've developed a set of opinions that aren't talked about enough. Many talks about AI Engineering are:
+- Oriented towards web development and chatbots
+- Building a system **only** for LLMs rather than a whole ML system
+- Mostly about frameworks rather than engineering
+
+Hopefully my content serves you well. I still have so much to learn, so I hope my content at least serves as an inspiration or a discussion point for your work.
+
+`,
+        // image: {
+        //     src: '/hero.jpg',
+        //     alt: 'Person wearing glasses and a patterned shirt holding up an orange drink while seated at a restaurant table with a plated meal'
+        // },
         actions: [
             {
                 text: 'Get in Touch',
@@ -111,11 +120,11 @@ const siteConfig: SiteConfig = {
             }
         ]
     },
-    subscribe: {
-        title: 'Subscribe to Dante Newsletter',
-        text: 'One update per week. All the latest posts directly in your inbox.',
-        formUrl: '#'
-    },
+    // subscribe: {
+    //     title: 'Subscribe to Dante Newsletter',
+    //     text: 'One update per week. All the latest posts directly in your inbox.',
+    //     formUrl: '#'
+    // },
     postsPerPage: 8,
     projectsPerPage: 8
 };
