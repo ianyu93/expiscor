@@ -108,6 +108,7 @@ I'm starting this blog because I want to write about my specific experience with
 
 Hopefully my content serves you well. I still have so much to learn, so I hope my content at least serves as an inspiration or a discussion point for your work.
 
+Oh, I also take side gigs, so I can continue to work on interesting projects outside of my main job. If you are looking for a part-time / fractional expert, hit me up :)
 `,
         // image: {
         //     src: '/hero.jpg',
