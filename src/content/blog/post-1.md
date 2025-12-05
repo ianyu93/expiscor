@@ -5,6 +5,8 @@ publishDate: 'Dec 05 2025'
 seo:
   title: "Don't Like DSPy? Read This Before You Decide to Ditch It."
   description: "Practical tips that overcome some common obstacles faced in deployment"
+tags: 
+    - dspy
 ---
 
 <!-- mtoc-start -->
