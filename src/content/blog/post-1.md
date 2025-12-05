@@ -92,7 +92,7 @@ Fine, I'm not famous yet :)
 
 Anyways! If you really want to prompt with manually prompting with a list of messages, you are free to do so!
 
-What you get from above is a list of text instead, that is because under the hood, lm object still would pass through **adapters**. Adaptors format the request and responses; DSPy's default adapter is ChatAdapters, but there are JSONAdapters, XML, and so on. You can also create your own custom adapter, have fine-grained control over how messages get formatted. For that, I recommend [Maxime Rivest](https://x.com/maximerivest)'s article, specifically this section about Making a [Simple Custom Adapter](https://maximerivest.com/posts/automatic-system-prompt-optimization.html#making-a-simple-custom-adapter). 
+What you get from above is a list of text instead, that is because under the hood, lm object still would pass through **adapters**. Adapters format the request and responses; DSPy's default adapter is ChatAdapters, but there are JSONAdapters, XML, and so on. You can also create your own custom adapter, have fine-grained control over how messages get formatted. For that, I recommend [Maxime Rivest](https://x.com/maximerivest)'s article, specifically this section about Making a [Simple Custom Adapter](https://maximerivest.com/posts/automatic-system-prompt-optimization.html#making-a-simple-custom-adapter). 
 
 ### Initialize Your Program with Instructions
 There are going to be times where even if you decompose the tasks, you still would want some specific behaviours, so you prompt. Naturally, you found out that docstrings for your Signature is used for initial prompts, something like:
